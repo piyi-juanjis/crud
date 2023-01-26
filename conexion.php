@@ -2,7 +2,7 @@
 
     try{
 
-        $base=new PDO ('mysql:host=localhost; dbname=pruebas1', 'root','');
+        $base=new PDO ('mysql:host=localhost; dbname=pruebas1', 'root','76425807');
         $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $base->exec("SET CHARACTER SET UTF8");
 
